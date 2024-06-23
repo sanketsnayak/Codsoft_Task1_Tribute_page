@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+   margin: 0;
+    padding:0;
+    font-family: kanit;
+
+}
+.home{
+    background-image: url(lewis-hamilton.jpg);
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+}
+
+
+.head h1{
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 50px;
+}
+.head img{
+ width: 250px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.para{
+    margin: 10px;
+    color: white;
+    width: 55vw;
+    font-size: 20px;
+    margin-left: 40px;
+    
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left:50px;
+    font-size: 20px;
+    
+}
+nav{
+    height: 10vh;
+    position: sticky;
+    
+    }
+.get button{
+    padding: 10px;
+    background-color: rgb(255, 15, 15);
+    border: none ;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    left: 300px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-left: 15px;
+    }
+
+.get button svg{
+    width: 20px;
+}
+.line{
+    height: 5px;
+    background-color: rgb(106, 106, 106);
+}
+.image img{
+    width:500px;
+}
+.section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.content{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.content button{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 15px;
+    max-width: 130px;
+}
+.content h1{
+    color: rgb(255, 64, 64);
+}
+section{
+    background-color: black;
+    color: white;
+    min-height: 80vh;
+    padding-bottom: 100px;
+}
+.headline{
+    text-align: center;
+    font-size: 30px;
+   padding-top: 50px;
+   padding-bottom: 30px;
+}
+.faq{
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: rgb(161, 161, 161);
+    
+    
+}
+.answer{
+    border-bottom: 3px solid white;
+    font-size: 18px;
+    padding-bottom: 10px;
+    line-height: 34px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all ease-out 0.7s;
+}
+.question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+.answer.active{
+    max-height: 300px;
+}
+svg.change.ball{
+    transform: rotate(180deg);
+    
+    
+}
+svg.change{
+    transition: all ease-out 0.7s;
+}
+footer{
+    background-color: rgb(122, 116, 116);
+    color: white;
+    max-height: 20vh;
+}
+.state p a{
+    color: white ;
+    text-decoration: none;
+}
+.state{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+nav a:hover{
+    color: rgb(0, 255, 183);
+    cursor: pointer;
+}
+.head h1 p{
+    color: rgb(254, 86, 86);
+}
+.get button:hover{
+    background-color: rgb(255, 45, 45);
+    cursor: pointer;
+}
+.content button:hover{
+    background-color: rgb(255, 45, 45);
+    cursor: pointer;  
+}
+.state p a:hover{
+    color: rgb(0, 255, 221);
+    transition: all ease-in-out 0.2s;
+}
+.faq:hover{
+    color: rgb(255, 255, 255);
+}
+.content h4{
+    color: rgb(57, 57, 57);
+}
+
+
+
